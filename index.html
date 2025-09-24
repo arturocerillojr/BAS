@@ -3,41 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage | My Awesome Website</title>
+    <title>Homepage | Financial Literacy</title>
     <meta name="description" content="Welcome to My Awesome Website. We offer a wide range of services to meet your needs.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>My Awesome Website</h1>
+        <h1>Financial Literate</h1>
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="pages/about.html">About Us</a></li>
-                <li><a href="pages/services.html">Services</a></li>
-                <li><a href="pages/budgeting.html">Contact Us</a></li>
-                <li><a href="pages/contact.html">Portfolio</a></li>
-                <li><a href="pages/credit.html">Blog</a></li>
-                <li><a href="pages/debt.html">FAQ</a></li>
-                <li><a href="pages/investing.html">Gallery</a></li>
-                <li><a href="pages/team.html">Our Team</a></li>
-                <li><a href="pages/testimonials.html">Testimonials</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="pages/financial-literacy.html">Financial Literacy</a></li>
+                <li><a href="pages/budgeting.html">Budgeting</a></li>
+                <li><a href="pages/credit.html">Credit</a></li>
+                <li><a href="pages/debt.html">Debt</a></li>
+                <li><a href="pages/investing.html">Investing</a></li>
+                <li><a href="pages/banking.html">Banking</a></li>
+               
+               
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>Discover Our Mission</h2>
+            <h2>The Ultimate Guide to Basics Financial Literacy</h2>
             <article>
-                <p>Welcome to our site! We're dedicated to providing the best solutions for all your needs. We believe in innovation, quality, and customer satisfaction above all else. Our team is committed to excellence, constantly pushing the boundaries to deliver outstanding results. Our goal is to make a positive impact, one project at a time. We've built a reputation for reliability and trust, and we're proud of the relationships we've forged with our clients. Our journey started with a simple idea: to create something meaningful. That idea has blossomed into a full-fledged commitment to serve you better. Every day, we work to improve our services and expand our reach, ensuring that we can help more people achieve their goals. Thank you for visiting us and for considering us for your next big project. Let's create something great together.</p>
+                <p>Welcome to our site!</p>
+                <p>We know that the earlier you learn the basics of how money works, the more likely you will be confident and successful with your finances later in life. It’s never too late to start learning, but it pays to start the earliest you can. The first steps into the world of money start with awareness about the need to be educated and immersed into good money habits, and then with education on how to do so.</p>
+                <p>Banking, budgeting, saving, credit, debt, and investing are the pillars that support most of the financial decisions that we’ll make in our lives.</p>
+                <p>On this site, we will help you to understand the pillars or financial literacy. Learn with us, enjoy! </p>
                 <img src="images/placeholder1.jpg" alt="A beautiful landscape showing our commitment to nature.">
             </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 My Awesome Website. All Rights Reserved.</p>
+        <p>&copy; 2025 Financial Literate. All Rights Reserved.</p>
     </footer>
+    
+    <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top">↑ Top</button>
+
+  <script>
+    const backToTopBtn = document.getElementById("backToTop");
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    };
+
+    backToTopBtn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
 </body>
 </html>
